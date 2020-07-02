@@ -55,6 +55,19 @@ footer{
   padding: 0px !important;
 }
 
+.fnav a{
+
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+
+display: flex;
+align-items: center;
+
+color: #262626;
+}
+
 /* текст */
 .nav-lum-text{
 
@@ -131,6 +144,17 @@ align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: #262626;
+}
+
+.monye-text label{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  margin-bottom: 0px;
 }
 /* цвтеа для элементов */
 
