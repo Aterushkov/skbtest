@@ -1,6 +1,9 @@
 body {
   font-family: Gilroy;
 }
+footer{
+  background: #F2F2F2;
+}
 
 .btn-use{
   display: inline-block;
@@ -33,6 +36,10 @@ body {
 .mx-6 {
   margin-left: 75px;
   margin-right: 75px;
+}
+.mx-7{
+  margin-left: 220px;
+  margin-right: 220px;
 }
 .mr-ultra {
   margin-right: 385px;
