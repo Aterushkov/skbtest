@@ -44,21 +44,21 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 								<span class="navbar-toggler-icon"></span>
 							</button>
 							<div class="collapse navbar-collapse ml-3 " id="navbarSupportedContent">
-								<ul class="navbar-nav mr-auto">
+								<ul class="navbar-nav mr-ultra">
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link" href="#">Кредиты<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Кредиты<span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link" href="#">Карты<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Карты<span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link" href="#">Вклады<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Вклады<span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link" href="#">Ипотека<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Ипотека<span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item dropdown active px-nav-menu">
-										<a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<a class="nav-link dropdown-toggle d-flex align-items-center nav-lum-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Услуги и сервисы
 										</a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,16 +69,21 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 										</div>
 									</li>
 								</ul>
-								<ul class="navbar-nav mr-auto">
+							
+							</div>
+							<div class="nav-bank-link">
+                <a href="https://ib.skbbank.ru/login" target="_blank">Интернет-банк</a>
+              </div>
+							<ul class="navbar-nav d-flex align-items-center">
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link" href="#">8 800 1000 600 <span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-rum-num" href="#">8 800 1000 600 <span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link" href="#">Офисы и банкоматы<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-rum-text" href="#">Офисы и банкоматы<span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item active px-nav-menu">
 
-										<a class="nav-link" href="#"> 
+										<a class="nav-link nav-rum-text" href="#"> 
 											<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M11.5937 0.281249L0.310625 5.00188V5.62313L4.59375 7.28125L6.25187 11.5644H6.87312L11.5937 0.281249Z" fill="#262626"/>
 											</svg>
@@ -93,21 +98,19 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 										<span class="sr-only">(current)</span></a>
 									</li>
 								</ul>
-							</div>
 						</nav>
 					</div>
 				</div>
 			</div>
-			<hr>
-			<div class="row mx-6 ">
-				<div class="col-5 pl-5 ml-3" >
-					<span>Частным лицам </span>|<span> Биометрическая идентификация</span>
+			<hr class="hr-c">
+			<div class="row mx-6 justify-content-around">
+			<div class="col-7  ml-3" >
+					<span class="nav-span-gray">Частным лицам |</span><span class="nav-span-black"> Биометрическая идентификация</span>
 				</div>
-				<div class="col-6 pr-5 mr-3 d-flex">
-					
-							<ul class="navbar-nav mr-auto">
+				<div class="col-4  mr-3 d-flex align-items-center">
+							<ul class="navbar-nav mlu-auto">
 								<li class="nav-item dropdown active px-nav-menu">
-									<a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<a class="nav-link dropdown-toggle d-flex align-items-center nav-span-2-black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Услуги и сервисы
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -118,7 +121,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 									</div>
 								</li>
 							</ul>
-							<button type="button" class="btn btn-outline-danger">Danger</button>
+							<button type="button" class="btn-use">Интернет-банк</button>
 				</div>
 			</div>
 		</header>
