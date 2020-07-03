@@ -70,8 +70,6 @@ color: #262626;
 
 /* текст */
 .nav-lum-text{
-
-font-family: Gilroy;
 font-style: normal;
 font-weight: 500 !important;
 font-size: 17px;
@@ -123,7 +121,7 @@ color: #262626;
   color: #747474;
 }
 
-.nav-span-black{;
+.nav-span-black{
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -197,8 +195,59 @@ color: #038C73;
   line-height: 16px;
   color: #038C73;
 }
-.
+.span-donats{
+  font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #262626;
+}
+.link-foot-last a{
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #F65E64;
+}
+
+.d-terra-font a{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.gen-licenz{
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
 /* цвтеа для элементов */
+.second-foot{
+  position: relative;
+
+}
+
+.second-foot:before{
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  left: calc((100vw - 100%)/-2);
+  right: calc((100vw - 100%)/-2);
+  background: linear-gradient(270deg, #6CC47B 0%, #038C73 100%);
+ 
+}
 
 .hr-c{
   background: #D9D9D9;
