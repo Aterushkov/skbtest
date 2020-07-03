@@ -1,5 +1,9 @@
 body {
   font-family: Gilroy;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: nowrap;
 }
 footer{
   background: #F2F2F2;
@@ -24,6 +28,10 @@ footer{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.logo-block{
+  width: 179px;
+  height: 33px;
+}
 .mlu-auto{
   margin-left:35%;
 }
@@ -43,6 +51,12 @@ footer{
 }
 .mr-ultra {
   margin-right: 385px;
+}
+
+.mr-log {
+  margin-right: 70px;
+  width: 100%;
+  height:100%;
 }
 
 /* padding */
@@ -169,7 +183,7 @@ color: #747474;
   color: #262626;
 }
 
-.href-foot-one a{
+.href-foot-one{
 font-style: normal;
 font-weight: 300;
 font-size: 14px;
@@ -233,21 +247,11 @@ color: #FFFFFF;
 
 /* цвтеа для элементов */
 .second-foot{
-  position: relative;
-
-}
-
-.second-foot:before{
-  content: '';
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  bottom: 0;
-  left: calc((100vw - 100%)/-2);
-  right: calc((100vw - 100%)/-2);
   background: linear-gradient(270deg, #6CC47B 0%, #038C73 100%);
- 
+  
 }
+
+
 
 .hr-c{
   background: #D9D9D9;
@@ -329,6 +333,10 @@ color: #FFFFFF;
   .mlu-auto{
     margin-left: 20%;
   }
+  .mx-7 {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 }
 
 @media (max-width: 1450px){
@@ -385,6 +393,18 @@ color: #FFFFFF;
 
 .mlu-auto{
   margin-left: 5%;
+}
+
+.free-for-r {
+  margin-top: 20px;
+}
+.mt-12{
+  margin-top: 20px;
+}
+.sin{
+  margin-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 }
 
@@ -477,6 +497,55 @@ color: #FFFFFF;
     margin-left: 0px;
     margin-right: 0px;
   width: auto;
+}
+}
+
+@media (max-width: 660px){
+  .mr-log {
+    margin-right: 0px;
+  }
+  .mx-7 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+}
+
+@media (max-width: 580px){
+  .mr-log {
+    margin-right: 0px;
+  }
+  .searh{
+    display: none;
+  }
+  .mx-6{
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+}
+
+@media (max-width: 480px){
+  .nav-bank-link {
+    left: -8%;
+}
+
+.navbar-toggler {
+  left: 50%;
+}
+.logo-block{
+  width: 138px;
+  height: 44px;
+
+}
+}
+
+@media (max-width: 390px){
+  .nav-bank-link {
+    left: -13%;
+}
+
+.navbar-toggler {
+  left: 45%;
 }
 
 }
