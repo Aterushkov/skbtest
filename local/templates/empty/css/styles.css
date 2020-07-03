@@ -116,8 +116,6 @@ color: #262626;
 }
 
 .nav-span-gray{
-
-  font-family: Gilroy;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -125,8 +123,7 @@ color: #262626;
   color: #747474;
 }
 
-.nav-span-black{
-  font-family: Gilroy;
+.nav-span-black{;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -134,7 +131,6 @@ color: #262626;
   color: #262626;
 }
 .nav-span-2-black{
-font-family: Gilroy;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
@@ -156,6 +152,52 @@ color: #262626;
   color: #262626;
   margin-bottom: 0px;
 }
+
+.free-for-r{
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #747474;
+}
+
+.big-num-foot{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 35px;
+  color: #262626;
+}
+
+.href-foot-one a{
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #038C73;
+}
+
+.span-foot-defend{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #F65E64;
+  flex: none;
+}
+.href-foot-two a{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #038C73;
+}
+.
 /* цвтеа для элементов */
 
 .hr-c{

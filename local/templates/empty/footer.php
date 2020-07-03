@@ -6,7 +6,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 <footer>
 	<div class="first-foot mx-7">
 		<div class="row pt-5 align-items-center">
-			<div class="col-4">
+			<div class="col-9">
 				<a class="navbar-brand mr-4" href="#">
 					<svg width="179" height="33" viewBox="0 0 179 33" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g clip-path="url(#clip0)">
@@ -28,8 +28,8 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 					</svg>
 				</a>
 			</div>
-			<div class="col-8 d-flex justify-content-end">
-				<a class="pl-4" href="#">
+			<div class="col-3 d-flex justify-content-start">
+				<a class="pl-3" href="#">
 					<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g opacity="0.7">
 							<path d="M30.72 0H1.28C0.572 0 0 0.572 0 1.28V30.72C0 31.428 0.572 32 1.28 32H30.72C31.428 32 32 31.428 32 30.72V1.28C32 0.572 31.428 0 30.72 0ZM27.024 9.34H24.468C22.464 9.34 22.076 10.292 22.076 11.692V14.776H26.86L26.236 19.604H22.076V32H17.088V19.608H12.916V14.776H17.088V11.216C17.088 7.084 19.612 4.832 23.3 4.832C25.068 4.832 26.584 4.964 27.028 5.024V9.34H27.024Z" fill="#038C73"/>
@@ -163,13 +163,13 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 				</div>
 			</div>
 			<div class="col-3">
-				<div class="col-12">
+				<div class="col-12 free-for-r">
 					<span>Бесплатно по России</span>
 				</div>
-				<div class="col-12">
+				<div class="col-12 big-num-foot">
 					<span>8 800 1000 600</span>
 				</div>
-				<div class="col-12">
+				<div class="col-12 href-foot-one">
 					<a  href="#">Обратная связь</a>
 				</div>
 				<div class="col-12">
@@ -185,6 +185,42 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 				</div>
 			</div>
 		</div>
+		<div class="row pt-5 ">
+			<div class="col-5 fnav d-flex">
+				<span class="mr-3 span-foot-defend">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M21 10C21 15.55 17.16 20.74 12 22C6.84 20.74 3 15.55 3 10V4L12 0L21 4V10ZM12 20C15.75 19 19 14.54 19 10.22V5.3L12 2.18V20Z" fill="#F65E64"/>
+					</svg>
+					Ваша безопасность</span>
+				<a  href="#">Карта сайта</a>
+			</div>
+			<div class="col-4">
+			<span>Действуют с 10:04 МСК 19.09.2019</span>
+			</div>
+			<div class="col-4"></div>
+		</div>
+		<div class="row pt-5 ">
+			<div class="col-5 px-0">
+				<div class="col-12 href-foot-two">
+					<a  href="#">Раскрытие информации профессионального участника рынка ценных бумаг</a>
+				</div>
+				<div class="col-12 href-foot-two">
+					<a  href="#">Раскрытие информации на странице ООО «Интерфакс-ЦРКИ»</a>
+				</div>
+			</div>
+			<div class="col-4 px-0">
+				<div class="col-12 href-foot-two">
+					<a  href="#">Список лиц, под контролем либо значительным влиянием которых находится банк</a>
+				</div>
+				<div class="col-12 href-foot-two">
+					<a  href="#">Информация о максимальных процентных ставках по вкладам физических лиц</a>
+				</div>
+			</div>
+			<div class="col-3">
+
+			</div>
+		</div>
+		<hr>
 	</div>
 	<div class="second-foot mx-7">
 
