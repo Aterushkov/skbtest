@@ -208,6 +208,7 @@ color: #038C73;
   font-size: 13px;
   line-height: 16px;
   color: #038C73;
+  white-space: initial;
 }
 .span-donats{
   font-style: normal;
@@ -243,6 +244,7 @@ font-weight: 300;
 font-size: 12px;
 line-height: 16px;
 color: #FFFFFF;
+white-space: initial;
 }
 
 /* цвтеа для элементов */
@@ -437,6 +439,8 @@ color: #FFFFFF;
 
 
 @media (max-width: 1000px){
+
+
   .px-nav-menu{
     display: none;
   }
@@ -449,8 +453,8 @@ color: #FFFFFF;
     width: 80%;
   }
   .mx-6{
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
   .nav-bank-link{
@@ -497,6 +501,10 @@ color: #FFFFFF;
     margin-left: 0px;
     margin-right: 0px;
   width: auto;
+}
+.mx-6 {
+  margin-left: 0px;
+  margin-right: 0px;
 }
 }
 

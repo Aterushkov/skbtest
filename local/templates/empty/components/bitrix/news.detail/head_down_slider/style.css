@@ -1,0 +1,220 @@
+.p-head-content{
+	white-space: initial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 30px;
+	color: #262626;
+}
+div.news-detail
+{
+	word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
+
+.h2-head-content{
+	white-space: initial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 65px;
+	color: #262626;
+}
+
+.mx-stcl{
+	margin-left: 145px;
+}
+
+.mx-stcr{
+	margin-right: 145px;
+}
+
+@media (max-width: 1500px){
+	.mx-stcl{
+		margin-left: 100px;
+	}
+}
+
+@media (max-width: 1500px){
+	.mx-stcl{
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 1200px){
+	.mx-stcl{
+		margin-left: 25px;
+	}
+	
+	.mx-stcr{
+		margin-right: 25px;
+	}
+
+	.h2-head-content{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.p-head-content{
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.detail_picture{
+		width:500px;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1000px){
+
+	.mx-6 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+	.mx-stcl{
+		margin-left: 15px;
+	}
+	
+	.mx-stcr{
+		margin-right: 15px;
+	}
+
+	.h2-head-content{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.p-head-content{
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.detail_picture{
+		width:400px;
+	}
+}
+
+@media (max-width: 900px){
+	.mx-stcl{
+		margin-left: 10px;
+	}
+	
+	.mx-stcr{
+		margin-right: 10px;
+	}
+
+	.h2-head-content{
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.p-head-content{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.detail_picture{
+		width:350px;
+	}
+}
+
+@media (max-width: 800px){
+	.mx-stcl{
+		margin-left: 10px;
+	}
+	
+	.mx-stcr{
+		margin-right: 10px;
+	}
+
+	.h2-head-content{
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.p-head-content{
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.detail_picture{
+		width:350px;
+	}
+}
+
+
+@media (max-width: 700px){
+	.mx-stcl{
+		margin-left: 10px;
+	}
+	
+	.mx-stcr{
+		margin-right: 10px;
+	}
+
+	.h2-head-content{
+		font-size: 28px;
+		line-height: 32px;
+	}
+	.p-head-content{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.detail_picture{
+		width:300px;
+		height: 215px;
+	}
+	.mx-6 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+
+@media (max-width: 600px){
+
+
+	.h2-head-content{
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.p-head-content{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.detail_picture{
+		width: 200px;
+		height: 143px;
+		right: -120px;
+		position: absolute;
+	}
+
+}
+
+@media (max-width: 450px){
+
+	.detail_picture{
+    top: 15px;
+	}
+
+}
+
+
+@media (max-width: 400px){
+
+	.detail_picture{
+
+    top: 35px;
+	}
+
+}
+
+
+@media (max-width: 350px){
+
+	.detail_picture{
+
+    top: 45px;
+	}
+
+}
