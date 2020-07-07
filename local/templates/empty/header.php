@@ -128,7 +128,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 			</div>
 		</header>
 			<hr class="hr-c">
-			<div class="row mx-6 justify-content-around hid">
+			<div class="row mx-6 justify-content-around">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ml-3" >
 					<span class="nav-span-gray">Частным лицам |</span><span class="nav-span-black"> Биометрическая идентификация</span>
 				</div>
@@ -146,7 +146,6 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 									</div>
 								</li>
 							</ul>
-							<!-- <button type="button" class="btn-use">Интернет-банк</button> -->
 							<div class="ui-btn-hollow">
 								<a href="https://ib.skbbank.ru/login" target="_blank">Интернет-банк</a>
 							</div>
