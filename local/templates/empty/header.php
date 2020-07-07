@@ -129,10 +129,10 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 		</header>
 			<hr class="hr-c">
 			<div class="row mx-6 justify-content-around hid">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 ml-3" >
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ml-3" >
 					<span class="nav-span-gray">Частным лицам |</span><span class="nav-span-black"> Биометрическая идентификация</span>
 				</div>
-				<div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4  mr-3 d-flex align-items-center">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5  mr-3 d-flex align-items-center">
 							<ul class="navbar-nav mlu-auto">
 								<li class="nav-item dropdown active px-nav-menu">
 									<a class="nav-link dropdown-toggle d-flex align-items-center nav-span-2-black" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -146,7 +146,10 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 									</div>
 								</li>
 							</ul>
-							<button type="button" class="btn-use">Интернет-банк</button>
+							<!-- <button type="button" class="btn-use">Интернет-банк</button> -->
+							<div class="ui-btn-hollow">
+								<a href="https://ib.skbbank.ru/login" target="_blank">Интернет-банк</a>
+							</div>
 				</div>
 			</div>
 
