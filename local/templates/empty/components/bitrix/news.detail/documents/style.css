@@ -11,4 +11,18 @@ div.news-detail img.detail_picture
 {
 	color:#486DAA;
 }
- 
+
+.a-doc a{
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+color: #262626;
+}
+
+.a-doc a:hover{
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 21px;
+	color: #262626;
+}

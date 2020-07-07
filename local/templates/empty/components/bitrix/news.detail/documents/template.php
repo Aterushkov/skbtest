@@ -14,11 +14,7 @@ $this->setFrameMode(true);
 $file = $arResult['PROPERTIES'];
 ?>
 
-<? 
 
-				//echo '<pre>'. print_r($arResult, true) .'</pre>';
-				  //  echo '<pre>'. print_r($file, true) .'</pre>';  
-  ?>
 	<!--  -->
 	<div class="row mx-6 py-4  mx-icon">
 		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -31,7 +27,7 @@ $file = $arResult['PROPERTIES'];
 		<div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 mx-icon-p flex-wrap d-flex px-0">
 				<?foreach ($file as $key => $val):?>
 					<?if($val['PROPERTY_TYPE'] == S):?>
-						<? $text ='<span class="span-icon">'.$val["VALUE"].'</span>'?>
+						<? $text ='<span >'.$val["VALUE"].'</span>'?>
 					<?endif;?>
 					<?if($val['PROPERTY_TYPE'] == F):?>
 							<?if($val['VALUE']):?>	
@@ -47,7 +43,7 @@ $file = $arResult['PROPERTIES'];
 											</svg>
 										</a>
 									</div>
-									<div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 ">
+									<div class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11 a-doc">
 									<a href="<?=CFile::GetPath($val['VALUE'])?>"><?=$text?></a>
 										
 									</div>
