@@ -11,3 +11,103 @@ div.news-detail img.detail_picture
 {
 	color:#486DAA;
 }
+
+li {
+	list-style-type: none; /* Прячем исходные маркеры */
+ }
+div.p-content ul{
+ padding-left: 0px;
+ }
+div.p-content ul li{
+white-space: initial;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #262626;
+padding-bottom: 22px;
+}
+div.p-content ul li::before {
+	color: #F65E64 !important;
+	content: "\25CF";
+	padding-right: 16px;
+}
+
+
+div.p-content ul li a{
+	white-space: initial;
+	color: #038c73 !important;
+	border-bottom: 1px solid #038c73 ;
+	white-space: nowrap;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+
+div.p-content{
+	font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #262626;
+white-space: initial;
+}
+
+.detail-picture-down-c {
+	height: auto;
+	max-width: 100%;
+	line-height: 0;
+	padding-top: 3%;
+}
+
+.site-img {
+	display: inline-block;
+	vertical-align: middle;
+	color: #3695eb;
+	float: left;
+	max-width: 250px;
+}
+
+.photo-text-down{
+	white-space: initial;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	color: #262626;
+}
+.photo-text-down-green{
+	white-space: initial;
+	color: #038c73;
+    background: -webkit-gradient(linear, right top, left top, from(#6cc47b), to(#038c73));
+    background: linear-gradient(270deg, #6cc47b 0%, #038c73 100%);
+    background-clip: none;
+    -webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 400px){
+.detail-picture-down-c{
+	display: none;
+}
+.photo-text-down{
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+}
+
+div.p-content ul li{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	flex: none;
+	order: 1;
+	align-self: flex-start;
+	margin: 10px 0px;
+}
+
+}
+
+

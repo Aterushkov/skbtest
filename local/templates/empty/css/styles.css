@@ -1,5 +1,5 @@
 body {
-  font-family: Gilroy;
+  font-family: 'Gilroy', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -28,6 +28,9 @@ footer{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.hid{
+  overflow:hidden;
+}
 .logo-block{
   width: 179px;
   height: 33px;

@@ -13,8 +13,8 @@
 $this->setFrameMode(true);
 ?>
 
-<div class="row mx-6 py-4 flex-wrap">
-	<div class="col-8 col-sm-8 col-md-5 col-lg-5 col-xl-5 mx-stcl">
+<div class="row mx-6 py-4 flex-wrap hid">
+	<div class="col-8 col-sm-8 col-md-5 col-lg-5 col-xl-5 mx-stcl ">
 		<?if($arParams["DISPLAY_NAME"]!="N" && $arResult["NAME"]):?>
 			<h2 class="h2-head-content"><?=$arResult["NAME"]?></h2>
 		<?endif;?>

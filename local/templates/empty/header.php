@@ -51,20 +51,20 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 										<a class="nav-link nav-lum-text" href="#">Кредиты<span class="sr-only">(current)</span></a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link nav-lum-text" href="#">Карты<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Карты</a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link nav-lum-text" href="#">Вклады<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Вклады</a>
 									</li>
 									<li class="nav-item active px-nav-menu">
-										<a class="nav-link nav-lum-text" href="#">Ипотека<span class="sr-only">(current)</span></a>
+										<a class="nav-link nav-lum-text" href="#">Ипотека</a>
 									</li>
 									<li class="nav-item dropdown active px-nav-menu">
 										<a class="nav-link dropdown-toggle d-flex align-items-center nav-lum-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Услуги и сервисы
 										</a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-											<a class="dropdown-item" href="#">Action</a>
+											<a class="dropdown-item" href="/Biometric/">Биометрическая идентификация</a>
 											<a class="dropdown-item" href="#">Another action</a>
 											<div class="dropdown-divider"></div>
 											<a class="dropdown-item" href="#">Something else here</a>
@@ -105,7 +105,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 				</div>
 			</div>
 			<hr class="hr-c">
-			<div class="row mx-6 justify-content-around">
+			<div class="row mx-6 justify-content-around hid">
 			<div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 ml-3" >
 					<span class="nav-span-gray">Частным лицам |</span><span class="nav-span-black"> Биометрическая идентификация</span>
 				</div>

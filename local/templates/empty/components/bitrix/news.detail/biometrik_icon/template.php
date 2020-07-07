@@ -14,9 +14,7 @@
 $this->setFrameMode(true);
 ?>
 
-<? 
-    //  echo '<pre>'. print_r($arResult, true) .'</pre>';
-  ?>
+
 <?if($arResult['PROPERTIES']['NUM_ELEMENTS']['VALUE_ENUM'] == 3) :?>
 
 	<div class="row mx-6 py-4  mx-icon">
