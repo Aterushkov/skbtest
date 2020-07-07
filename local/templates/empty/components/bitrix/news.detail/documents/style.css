@@ -17,6 +17,7 @@ font-weight: 300;
 font-size: 18px;
 line-height: 21px;
 color: #262626;
+white-space: initial;
 }
 
 .a-doc a:hover{

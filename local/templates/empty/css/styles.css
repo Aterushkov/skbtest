@@ -91,7 +91,7 @@ color: #262626;
 .nav-lum-text{
 font-style: normal;
 font-weight: 500 !important;
-font-size: 17px;
+font-size: 17px !important;
 line-height: 21px;
 color: #262626;
 }
@@ -114,6 +114,23 @@ color: #262626;
   color: #262626;
   }
 
+.nav-bank-links{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+
+.nav-bank-links a {
+  text-transform: uppercase;
+  font: inherit;
+  color: #f65e64;
+  text-decoration: none;
+}
 .nav-bank-link{
   font-style: normal;
   font-weight: 500;
@@ -258,26 +275,17 @@ white-space: initial;
   
 }
 
-
-
 .hr-c{
   background: #D9D9D9;
 }
 
 /* @media */
 
-@media (max-width: 1799px){
-  .mr-ultra {
-    margin-right:  210px;
-  }
-}
+
 
 
 @media (max-width: 1670px){
-  .mr-ultra {
-    margin-right: 180px;
-  }
-  
+
 .mlu-auto{
   margin-left: 35%;
 }
@@ -285,7 +293,7 @@ white-space: initial;
 
 @media (max-width: 1650px){
   .mr-ultra {
-    margin-right: 150px;
+    margin-right: 100px;
   }
   
 .mlu-auto{
@@ -295,7 +303,7 @@ white-space: initial;
 
 @media (max-width: 1620px){
   .mr-ultra {
-    margin-right: 120px;
+    margin-right: 80px;
   }
   
 .mlu-auto{
@@ -305,7 +313,7 @@ white-space: initial;
 
 @media (max-width: 1590px){
   .mr-ultra {
-    margin-right: 120px;
+    margin-right: 70px;
   }
   .nav-lum-text{
     font-size: 15px;
@@ -324,7 +332,7 @@ white-space: initial;
 
 @media (max-width: 1520px){
 .mr-ultra {
-    margin-right: 100px;
+    margin-right: 60px;
   }
 
 .nav-lum-text{
@@ -348,7 +356,7 @@ white-space: initial;
 
 @media (max-width: 1450px){
 .mr-ultra {
-    margin-right: 50px;
+    margin-right: 40px;
   }
 .nav-lum-text{
     font-size: 13px;
@@ -365,6 +373,10 @@ white-space: initial;
 .mlu-auto{
   margin-left: -20%;
 }
+.mx-6{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 }
 @media (max-width: 1350px){
 
@@ -377,6 +389,10 @@ white-space: initial;
 
   .mlu-auto{
     margin-left: 5%;
+  }
+  .mx-6{
+    margin-left: 10px;
+    margin-right: 10px;
   }
   }
 
@@ -393,10 +409,7 @@ white-space: initial;
   margin-left: 0px;
   margin-right: 0px;
 }
-.mx-6{
-  margin-left: 60px;
-  margin-right: 60px;
-}
+
 
 .mlu-auto{
   margin-left: 5%;
@@ -413,13 +426,14 @@ white-space: initial;
   padding-left: 0px;
   padding-right: 0px;
 }
+.mx-6{
+  margin-left: 5px;
+  margin-right: 5px;
+}
 }
 
 @media (max-width: 1150px){
-  .mx-6{
-    margin-left: 25px;
-    margin-right: 25px;
-  }
+
   .px-nav-menu {
     padding-left: 5px;
     padding-right: 5px;
@@ -453,39 +467,43 @@ white-space: initial;
     display: none;
   }
   .logo-ah {
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 80%;
-  }
-  .mx-6{
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    margin-top: 10px;
   }
 
   .nav-bank-link{
     display: block;
-    left: 0%;
+    left: 98%;
     position: relative;
+    bottom: 30px;
   }
-  .navbar-toggler{
-    left: 60%;
-    position: relative;
+  .searh{
+    display: none;
   }
-  
-}
-
-
-@media (max-width: 900px){
-  .navbar-toggler{
-    left: 57%;
-    position: relative;
+  .mx-6{
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
-@media (max-width: 850px){
-  .navbar-toggler{
-    left: 55%;
+@media (max-width: 990px){
+  .nav-bank-link{
+    display: block;
+    left: 0px;
     position: relative;
+    bottom: 0px;
+  }
+  .nav-bank-link{
+  display: none;
+  }
+.nav-bank-links{
+  display: block;
+  margin-left: auto;
+  }
+  .dcont{
+    display: contents;
   }
 }
 
@@ -507,10 +525,7 @@ white-space: initial;
     margin-right: 0px;
   width: auto;
 }
-.mx-6 {
-  margin-left: 0px;
-  margin-right: 0px;
-}
+
 }
 
 @media (max-width: 660px){
@@ -530,11 +545,7 @@ white-space: initial;
   .searh{
     display: none;
   }
-  .mx-6{
-    margin-left: 5px;
-    margin-right: 5px;
 
-  }
 }
 
 @media (max-width: 480px){
@@ -542,9 +553,6 @@ white-space: initial;
     left: -8%;
 }
 
-.navbar-toggler {
-  left: 50%;
-}
 .logo-block{
   width: 138px;
   height: 44px;
@@ -557,8 +565,5 @@ white-space: initial;
     left: -13%;
 }
 
-.navbar-toggler {
-  left: 45%;
-}
 
 }

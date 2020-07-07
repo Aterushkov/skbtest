@@ -37,6 +37,14 @@ color: #262626;
 white-space: initial;
 }
 
+.h2-icon-content{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+white-space: initial;
+color: #262626;
+}
 .a-tarif{
 	font-style: normal;
 	font-weight: normal;
@@ -122,5 +130,15 @@ white-space: initial;
 	line-height: 18px;
 	color: #000000;
 
+	}
+
+	
+.h2-icon-content{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	color: #262626;
+	white-space: initial;
 	}
 }
