@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Денежные переводы");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"head_down_slider",
+	"head.down.slider",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_ELEMENT_CHAIN" => "N",

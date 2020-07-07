@@ -75,9 +75,9 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 											Услуги и сервисы
 											</a>
 											<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-												<a class="dropdown-item" href="/Biometric/">Биометрическая идентификация</a>
+												<a class="dropdown-item" href="/biometric/">Биометрическая идентификация</a>
 												<a class="dropdown-item" href="/safe_v/">Аренда сейфовых ячеек</a>
-												<a class="dropdown-item" href="/remittance/">Аренда сейфовых ячеек</a>
+												<a class="dropdown-item" href="/remittance/">Денежные переводы</a>
 												<div class="dropdown-divider"></div>
 												<a class="dropdown-item" href="#">Something else here</a>
 											</div>

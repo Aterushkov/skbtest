@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Биометрия");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"head_down_slider",
+	"head.down.slider",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Биометрия");
  <br>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"biometrik_icon",
+	"icon.in.page",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -71,7 +71,7 @@ $APPLICATION->SetTitle("Биометрия");
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => "biometrik_icon",
+		"COMPONENT_TEMPLATE" => "icon.in.page",
 		"DETAIL_URL" => "",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "Y",
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("Биометрия");
 		"USE_SHARE" => "N"
 	)
 );?><br>
- <?$APPLICATION->IncludeComponent("bitrix:news.detail", "icon_and_text_on_footer", Array(
+ <?$APPLICATION->IncludeComponent("bitrix:news.detail", "icon.and.text.on.footer", Array(
 	"ACTIVE_DATE_FORMAT" => "d.m.Y",	// Формат показа даты
 		"ADD_ELEMENT_CHAIN" => "N",	// Включать название элемента в цепочку навигации
 		"ADD_SECTIONS_CHAIN" => "Y",	// Включать раздел в цепочку навигации

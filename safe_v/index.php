@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Аренда сейфовых ячеек");
 ?><?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"head_down_slider",
+	"head.down.slider",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Аренда сейфовых ячеек");
  <br>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"biometrik_icon",
+	"icon.in.page",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_ELEMENT_CHAIN" => "N",
@@ -215,7 +215,7 @@ $APPLICATION->SetTitle("Аренда сейфовых ячеек");
  <br>
  <?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"icon_and_text_on_footer",
+	"icon.and.text.on.footer",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_ELEMENT_CHAIN" => "N",
